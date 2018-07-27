@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ce0145e-7bee-4473-bec3-577c5feca21e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/activitytracker/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ce0145e-7bee-4473-bec3-577c5feca21e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -229,6 +226,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activityreport" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="activitytrackerproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -320,12 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532678977292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class added">
+      <created>1532680679511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532680679511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -379,7 +386,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes added" />
+    <MESSAGE value="class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="class added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
