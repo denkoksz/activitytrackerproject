@@ -28,7 +28,7 @@ public class TrackPoint {
         double lat1 = coordinate.getLatitude();
         double lon1 = coordinate.getLongitude();
 
-        final int R = 6371; // Radius of the earth
+        final int R = 6371;
 
         double latDistance = Math.toRadians(lat2 - lat1);
         double lonDistance = Math.toRadians(lon2 - lon1);
@@ -36,7 +36,7 @@ public class TrackPoint {
                 + Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2))
                 * Math.sin(lonDistance / 2) * Math.sin(lonDistance / 2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        double distance = R * c * 1000; // convert to meters
+        double distance = R * c * 1000;
 
         double height = elevation - trackpoint.getElevation();
 

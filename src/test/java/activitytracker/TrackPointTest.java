@@ -3,7 +3,7 @@ package activitytracker;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-//import static org.hamcrest.Matchers.closeTo;
+import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;
 
 
