@@ -1,7 +1,5 @@
-package activityreport;
+package activitytracker;
 
-import activitytracker.ActivityType;
-import activitytracker.ActivityWithoutTrack;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

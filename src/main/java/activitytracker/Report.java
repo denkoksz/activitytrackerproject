@@ -7,6 +7,9 @@ public class Report {
     private double distance;
 
     public Report(ActivityType activityType, double distance) {
+        if(activityType == null){
+            throw new IllegalArgumentException("Invalid arguments");
+        }
         this.activityType = activityType;
         this.distance = distance;
     }
