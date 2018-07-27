@@ -1,6 +1,5 @@
-package activityreport;
+package activitytracker;
 
-import activitytracker.*;
 import org.junit.Test;
 
 import java.util.Arrays;

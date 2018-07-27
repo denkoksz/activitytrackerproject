@@ -1,10 +1,7 @@
-package activityreport;
+package activitytracker;
 
-import activitytracker.Activity;
-import activitytracker.ActivityType;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;

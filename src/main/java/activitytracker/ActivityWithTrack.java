@@ -6,7 +6,7 @@ public class ActivityWithTrack implements Activity {
 
     private Track track;
 
-    public ActivityWithTrack(ActivityType activityType, Track track) {
+    public ActivityWithTrack(Track track,ActivityType activityType) {
         if(activityType == null || track == null){
             throw new IllegalArgumentException("...");
         }
